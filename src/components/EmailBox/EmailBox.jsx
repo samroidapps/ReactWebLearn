@@ -25,7 +25,7 @@ function EmailBox() {
         <motion.div
         variants={containerVariants(0.6)}
         initial="offscreen"
-        whileInView={"onScreen"}
+        whileInView={"onscreen"}
         viewport={{
           once: true
         }}
@@ -35,7 +35,7 @@ function EmailBox() {
       <motion.input 
        variants={containerVariants(0.7)}
        initial="offscreen"
-       whileInView={"onScreen"}
+       whileInView={"onscreen"}
        viewport={{
          once: true
        }}
@@ -44,7 +44,7 @@ function EmailBox() {
       <motion.div 
         variants={containerVariants(0.9)}
         initial="offscreen"
-        whileInView={"onScreen"}
+        whileInView={"onscreen"}
         viewport={{
           once: true
         }}
