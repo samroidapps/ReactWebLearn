@@ -1,0 +1,254 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/Hero/Hero.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.h-wrapper {
+  background: var(--primary-color);
+  height: 120vh;
+  overflow: hidden;
+}
+
+.h-wrapper .container {
+  padding-top: 8rem;
+}
+
+.h-arrow{
+  position: absolute;
+  top:5rem;
+  width: 100%;
+  max-width: 60rem;
+  z-index: 0;
+}
+
+.h-container {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+/* Left side styling*/
+.h-left {
+  flex: 1 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.image-row {
+  display: flex;
+  gap: 2rem;
+}
+
+.image-row > :nth-child(2) {
+  transform: translateY(-4rem);
+}
+
+.person-pill {
+  height: 15rem;
+  width: 6rem;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.person-pill-bg {
+  border-radius: 999px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.person-pill-bg > img {
+  width: 100%;
+  object-fit: cover;
+  scale: 2;
+  margin-top: 4rem;
+}
+
+/*Right side styling*/
+
+.h-right {
+  flex: 1.25 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.h-title {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: var(--third-color);
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.h-title > :nth-child(3) {
+  color: white;
+}
+
+.h-des {
+  color: white;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/EmailBox/EmailBox.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.emailBox {
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  position: relative;
+  overflow: hidden;
+}
+
+.emailBox > input {
+  border: none;
+  outline: none;
+  flex: 1 1;
+  margin-left: 1rem;
+  font-size: 1rem;
+  color: rgb(150, 150, 150);
+  font-family: "__Josefin_Sans_02b14a", "__Josefin_Sans_Fallback_02b14a";
+}
+
+.emailBox > input::placeholder {
+ font-size: .8rem;  
+
+}
+.getFunded{
+    position: absolute;
+    right: 0.5rem;
+    height: 80%;
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 2rem;
+    border-radius: 999px;
+    color: white;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/Navbar/Navbar.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.n-wrapper {
+  background-color: var(--primary-color);
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+}
+
+.n-container {
+  padding: 1.5rem 1rem;
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.n-logo {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.n-right {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  font-size: 0.9rem;
+}
+
+.n-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.n-menu span {
+  cursor: pointer;
+}
+
+.fund-button {
+  color: var(--dark-bg);
+  background-color: var(--third-color);
+  padding: 1rem 1.6rem;
+  text-transform: capitalize;
+  border-radius: 999px;
+}
+
+.nm-container {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .n-container {
+    display: none;
+  }
+
+  .nm-container {
+    display: block;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    position: relative;
+    background-color: var(--primary-color);
+  }
+
+  .nm-container > :nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .nm-menu {
+    position: fixed;
+    top: 3.8rem;
+    padding: 3rem 2rem;
+    box-sizing: border-box;
+    left: 0;
+    display: flex;
+    background-color: var(--primary-color);
+    flex-direction: column;
+    transform: translateX(-150%);
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    font-size: 1.2rem;
+    z-index: 99;
+    height: calc(100vh - 4rem);
+  }
+
+  .nm-menu span {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .m-funded-button {
+    width: 100%;
+    background-color: var(--third-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 1rem 0rem;
+    border-radius: 999px;
+    color: var(--dark-bg);
+    text-transform: capitalize;
+  }
+}
+
