@@ -1,4 +1,4 @@
-// File: /Users/surajgorai/MyPC/Development/NewJourney/MyPublicDev/ReactWebLearn/app/page.js
+// File: /Users/surajgorai/PersonalLearning/ReactWebLearn/app/page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
