@@ -1,4 +1,4 @@
-Till .emailBox {
+.emailBox {
   background-color: white;
   padding: 1rem 2rem;
   border-radius: 999px;
@@ -16,7 +16,7 @@ Till .emailBox {
   margin-left: 1rem;
   font-size: 1rem;
   color: rgb(150, 150, 150);
-  font-family: "__Josefin_Sans_02b14a", "__Josefin_Sans_Fallback_02b14a";
+  font-family: '__Josefin_Sans_bc8ab8', '__Josefin_Sans_Fallback_bc8ab8';
 }
 
 .emailBox > input::placeholder {
