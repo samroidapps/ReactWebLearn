@@ -6,6 +6,7 @@ import Navbar from "@/src/components/Navbar/Navbar";
 import WhatWeDo from "@/src/components/WhatWeDo/WhatWeDo";
 import OurDiff from "@/src/components/OurDiff/OurDiff";
 import { motion, useAnimation } from "framer-motion";
+import HowItWorks from "@/src/components/HowItWorks/HowItWorks";
 
 export default function Home() {
   const controls = useAnimation();
@@ -27,10 +28,11 @@ export default function Home() {
             backgroundColor: "white",
           })
         }
-        viewport={{amount: 0.4}}
+        viewport={{ amount: 0.4 }}
       >
         <OurDiff />
       </motion.div>
+      <HowItWorks />
     </motion.div>
   );
 }
