@@ -34,7 +34,7 @@ useMotionValueEvent(scrollYProgress, "change",(latest) => {
           {/* Right Side */}
           <div className="n-right">
             <div className="n-menu">
-              <Link to="www-wrapper" spy={true} smooth={true} ><span>What We Do</span></Link>
+              <Link to="wwd-wrapper" spy={true} smooth={true} ><span>What We Do</span></Link>
               <Link to="hiw-wrapper" spy smooth offset={100} ><span>How Its Work</span></Link>
               <Link to="wwi-wrapper" spy smooth  ><span>who we invest in</span></Link>
               <Link to="t-wrapper"  spy smooth offset={100} ><span>testimonials</span></Link>
@@ -67,7 +67,7 @@ useMotionValueEvent(scrollYProgress, "change",(latest) => {
             className="nm-menu"
             style={{ transform: mobileMenuOpened && "translateX(0%)" }}
           >
-           <Link onClick={()=> setMobileMenuOpened(false)} to="www-wrapper" spy={true} smooth={true}> <span>What We Do</span></Link>
+           <Link onClick={()=> setMobileMenuOpened(false)} to="wwd-wrapper" spy={true} smooth={true}> <span>What We Do</span></Link>
            <Link onClick={()=> setMobileMenuOpened(false)} to="hiw-wrapper" spy smooth offset={100}> <span>How Its Work</span></Link>
            <Link onClick={()=> setMobileMenuOpened(false)} spy smooth > <span>who we invest in</span></Link>
            <Link onClick={()=> setMobileMenuOpened(false)} spy smooth offset={100}> <span>testimonials</span></Link>
